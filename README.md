@@ -5,8 +5,8 @@
 
 ## A breathing toolbar library in Kotlin
 Want to use the breathing toolbar effect similar to *Snapchat* in your app?  You have reached the right place.
+|![sample1](https://github.com/aliwaris0572/Snappy/blob/dev/app/art/BreathingToolbar.gif)|  ![sample2](https://github.com/aliwaris0572/Snappy/blob/dev/app/art/BreathingToolbar2.gif)|
 
-![Breathing Toolbar](https://github.com/aliwaris0572/Snappy/blob/master/app/art/BreathingToolbar.gif)
 
 ## How to use?
 
@@ -15,6 +15,7 @@ Want to use the breathing toolbar effect similar to *Snapchat* in your app?  You
  3. When you're done - `snappy.stopBreathing(toolbar)`
  
 Easy enough!!! :)
+For more customization, refer sample application code.
 
 ## Gradle
 Add it in your root build.gradle at the end of repositories
