@@ -5,6 +5,7 @@
 
 ## A breathing toolbar library in Kotlin
 Want to use the breathing toolbar effect similar to *Snapchat* in your app?  You have reached the right place.
+
 |![sample1](https://github.com/aliwaris0572/Snappy/blob/dev/app/art/BreathingToolbar.gif)|  ![sample2](https://github.com/aliwaris0572/Snappy/blob/dev/app/art/BreathingToolbar2.gif)|
 
 
