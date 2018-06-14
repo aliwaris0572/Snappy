@@ -31,6 +31,9 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         val snappy = Snappy(this, colorArray)
+        // Optional : Default is 1000ms
+         snappy.setDuration(1500)
+
         str = findViewById(R.id.str)
         str.setOnRefreshListener {
             snappy.startBreathing(toolbar)

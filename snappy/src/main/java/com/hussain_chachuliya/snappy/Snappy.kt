@@ -17,7 +17,12 @@ class Snappy(private val context: Activity,
              private val colors: Array<Int>) {
     private var mCountDown: CountDownTimer? = null
     private var previousColor: Int? = null
-    private val duration: Long = 1000
+    private var duration: Long = 1000
+
+    fun setDuration(durationInMilliSecs : Long): Snappy{
+        duration = durationInMilliSecs
+        return this
+    }
 
     fun startBreathing(toolbar: Toolbar) {
         mCountDown = object : CountDownTimer(duration, duration) {
