@@ -7,17 +7,16 @@ import android.os.Bundle
 import android.os.Handler
 import android.provider.Settings
 import android.support.v4.app.ActivityCompat
-import android.support.v4.widget.SwipeRefreshLayout
 import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import com.hussain_chachuliya.snappy.Snappy
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.toolbar.*
 
 
 class MainActivity : AppCompatActivity() {
-    lateinit var str: SwipeRefreshLayout
     private val colorArray: Array<Int> = arrayOf(
             R.color.color_a,
             R.color.color_b,
@@ -32,15 +31,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
         snappy = Snappy(this, colorArray)
         // Optional : Default is 1000ms
         snappy.setDuration(1500)
 
-        str = findViewById(R.id.str)
         str.setOnRefreshListener {
             snappy.startBreathing(toolbar)
             val h = Handler()
