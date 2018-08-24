@@ -3,6 +3,9 @@
  
 [![](https://jitpack.io/v/aliwaris0572/Snappy.svg)](https://jitpack.io/#aliwaris0572/Snappy)
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Snappy-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7038)
+
+
 ## A breathing toolbar library in Kotlin
 Want to use the breathing toolbar effect similar to *Snapchat* in your app?  You have reached the right place.
 
