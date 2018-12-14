@@ -38,3 +38,6 @@ Then, add this in you app level build.gradle
     dependencies {
 	            implementation 'com.github.aliwaris0572:Snappy:{latest_version}'
 	    }
+	    
+## Support
+If you liked my work, consider buying me a cup of :coffee: by [PayPal](https://paypal.me/hchachu)
