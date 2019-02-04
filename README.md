@@ -36,7 +36,7 @@ Add it in your root build.gradle at the end of repositories
 Then, add this in you app level build.gradle
 
     dependencies {
-	            implementation 'com.github.aliwaris0572:Snappy:{latest_version}'
+	            implementation 'com.github.aliwaris0572:snappy:{latest_version}'
 	    }
 	    
 ## Support
